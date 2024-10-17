@@ -1,0 +1,51 @@
+h1,
+h2,
+p{
+    margin: 0;
+}
+
+.header{
+    background-color: #FFF7ED;
+    padding: 2.25em 1.625em;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1em;
+}
+
+.nav > a{
+    text-decoration-line: none;
+    color: #4D4D4D;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.nav > a:visited{
+    color: #4D4D4D;
+}
+
+.nav > .logo{
+    margin-right: auto;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.nav > .logo:visited{
+    color: black;
+} 
+
+.footer{
+    background-color: #252525;
+    padding: 1.625em 0;
+    text-align: center;
+    font-size: .875rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color: #AAAAAA;
+}
+
